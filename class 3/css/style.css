@@ -1,0 +1,62 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.form-section{
+    background-color: gainsboro;
+    height: 100vh;
+}
+
+.container{
+    width: 1140px;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-box{
+    width: 900px;
+    height: 60vh;
+    background-color: white;
+    display: flex;
+}
+.left-side{
+    flex-basis: 50%;
+}
+
+.right-side{
+    flex-basis: 50%;
+}
+.left-side{
+    background: url(../img/rr.jpg) center center no-repeat; 
+    background-size: cover;
+}
+
+.right-side{
+    padding: 50px;
+}
+
+input,select,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.name input{
+    width: 49%;
+
+}
+.name.First-name{
+    margin-right: 15px;
+    margin-left: 10px;
+}
+    
+.condition input{
+    width:auto ;
+
+}
+
